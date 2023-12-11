@@ -1,0 +1,84 @@
+div.popup-lay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #0008;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.popup {
+  position: relative;
+  width: 25%;
+  height: 39.5%;
+  background-color: #fff;
+  border-radius: 0.75vw;
+  box-shadow: 0px 2px 5px #333333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.popup>.top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 12%;
+  border-bottom: solid 0.12vw #ddd;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.popup .toptitle {
+  text-align: center;
+  height: 100%;
+  border-top: solid 0.2vw #fff0;
+  border-bottom: solid 0.2vw #f5ee74;
+  box-sizing: border-box;
+  color: var(--blue);
+  font-size: 1.3vw;
+}
+
+div.popup .close-icon {
+  position: absolute;
+  pointer-events: all;
+  right: 3%;
+  top: 25%;
+  height: 50%;
+}
+
+div.popup .content {
+  padding: 0 0 2vw 0;
+  position: relative;
+  font-size: 1.16vw;
+  font-weight: 500;
+}
+
+div.popup .confirm {
+  position: absolute;
+  left: 29%;
+  bottom: 8%;
+  width: 42%;
+  height: 17.5%;
+  transform: skewX(-10deg);
+  border-radius: 0.5vw;
+  background-color: var(--cyan);
+  box-shadow: 0px 2px 3px #333333;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.popup .confirm>span {
+  font-size: 1.4vw;
+  transform: skewX(10deg);
+  color: var(--blue);
+}

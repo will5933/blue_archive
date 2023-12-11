@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+
+<head>
+  <meta charset="utf-8">
+  <title>Blue Archive</title>
+  <!-- css -->
+  <link href="css/base.css" rel="stylesheet" />
+  <link href="css/transition.css" rel="stylesheet" />
+  <link href="css/style2.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div id="phone">
+    <div id="lay-start" class="lay fade">
+      <img class="fade" style="opacity: 0;" src="assets\images\start-screen.png" />
+    </div>
+
+    <div id="lay0" class="lay">
+      <video id="home-video" src="assets/videos/home2.mp4" autoplay muted loop></video>
+    </div>
+
+    <div id="lay1" class="lay">
+      <div class="head">
+        <img class="logo" src="assets/images/logo.png" />
+        <div class="uidver_wp">
+          <span class="uidver">UID:10 008 590 276</span>
+          <span class="uidver">Ver:1.6.1_14</span>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="buttons">
+          <div class="ba-button ba-buttonA">菜单</div>
+          <div class="ba-button ba-buttonB">切换账号</div>
+        </div>
+        <div class="tip_wp">
+          <span class="tip">点击任意区域进入游戏</span>
+          <span class="bellowtip">著作权人：NEXON Games Co.,Ltd. 运营公司：上海星啸网络科技有限公司</span>
+          <span class="bellowtip">国新出审[2023]364号 ISBN 978-7-498-12113-4 出版单位：宁波东海岸电子音像出版社有限公司</span>
+          <span class="bellowtip">为维护未成年人健康上网环境，本游戏暂不支持实名验证18岁以下用户登录体验</span>
+          <span class="bellowtip">© 2023 NEXON Games Co.,Ltd. & Shanghai Yostar Co., Ltd. All rights Reserved.</span>
+        </div>
+        <div class="icons">
+          <img class="icon" src="assets/images/16+.png" />
+          <img class="icon" src="assets/images/CRIWARE.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="background-service">
+    <audio id="start-bgm1" src="assets\audios\pv-a.ogg" loop></audio>
+  </div>
+
+  <!-- template -->
+  <!-- popup -->
+  <template id="popup-tmp">
+    <link rel="stylesheet" href="css/popup.css">
+    <div class="popup-lay">
+      <div class="popup">
+        <div class="top">
+          <span class="toptitle">提示</span>
+          <img class="close-icon" src="assets\images\close.png" />
+        </div>
+        <div class="content">为老师播放一首小曲儿？</div>
+        <div class="confirm ba-button"><span>确认</span></div>
+      </div>
+    </div>
+  </template>
+
+  <script src="js/script1.js"></script>
+</body>
+
+</html>

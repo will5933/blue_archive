@@ -1,0 +1,64 @@
+:root {
+  --blue: #2b496d;
+  --cyan: #73ddfd;
+}
+
+* {
+  user-select: none;
+  font-weight: 600;
+}
+
+img {
+  pointer-events: none;
+}
+
+body {
+  background-color: #333333;
+  margin: 0;
+}
+
+div#phone {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 1vw;
+  width: 100vw;
+  height: 50vw;
+}
+
+div#background-service {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1vh;
+}
+
+@media (max-aspect-ratio: 2.4) {
+  div#phone {
+    top: calc(50vh - 25vw);
+  }
+}
+
+div.lay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.head, div.foot {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+
+div.head {
+  top: 0;
+}
+
+div.foot {
+  bottom: 0;
+}
