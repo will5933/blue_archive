@@ -12,7 +12,7 @@ div.popup-lay {
 
 div.popup {
   position: relative;
-  width: 25%;
+  width: 22%;
   height: 39.5%;
   background-color: #fff;
   border-radius: 0.75vw;
@@ -70,7 +70,7 @@ div.popup .confirm {
   transform: skewX(-10deg);
   border-radius: 0.5vw;
   background-color: var(--cyan);
-  box-shadow: 0px 2px 3px #333333;
+  box-shadow: 0px 2px 2px #333333;
 
   display: flex;
   justify-content: center;

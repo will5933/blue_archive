@@ -78,7 +78,7 @@ video#home-video {
   font-family: 800;
   /* font-style: italic; */
   border-radius: 0.5vw;
-  box-shadow: 0px 2px 3px #333333;
+  box-shadow: 0px 2px 2px #333333;
   transition: transform .1s;
 }
 #lay1 .ba-buttonA {
@@ -98,7 +98,6 @@ video#home-video {
   justify-content: center;
   align-items: center;
 }
-
 
 #lay1 span.tip {
   padding: 0.04% 30%;
