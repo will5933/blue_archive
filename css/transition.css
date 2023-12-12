@@ -1,3 +1,7 @@
 .fade {
   transition: opacity 1s;
 }
+
+.short-fade {
+  transition: opacity 0.3s;
+}

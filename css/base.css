@@ -23,6 +23,9 @@ div#phone {
   border-radius: 1vw;
   width: 100vw;
   height: 44vw;
+  background-color: #000;
+  /*  */
+  border: solid 0.1vw var(--blue);
 }
 
 div#background-service {
