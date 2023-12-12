@@ -29,19 +29,20 @@ delay(2000, () => {
 });
 
 // enter game
-lay1.addEventListener('click', () => {
+selector('#lay1>.backgroundinlay').addEventListener('click', () => {
   bgmPlayer.volume = 0.3;
   lay0.style.opacity = '0';
   lay1.style.opacity = '0';
   layLoading.style.display = 'unset';
-  
+
   delay(300, () => {
     lay0.remove();
     lay1.remove();
     // break
     delay(3000, () => confirm('To be continued, maybe?'));
   });
-});
+}, true);
+
 
 function addButtonClickEffect() {
   document.querySelectorAll('.ba-button').forEach(ele => {
